@@ -22,14 +22,24 @@ footer {
     transform: scale(1.1);
 }
 
+.effect_table {
+    transition: transform 0.1s, filter 0.1s;
+    margin: 10px;
+}
+
+.effect_table:hover {
+    filter: brightness(1.15);
+    transform: scale(1.05);
+}
 .img_container{
     display: flex;
     flex-wrap: wrap;
 }
 
-.color_bass{
-    color: brown;
-}
 a{
     text-decoration: none;
+}
+
+.change_color:hover{
+    color: red;
 }
